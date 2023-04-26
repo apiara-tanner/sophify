@@ -18,8 +18,7 @@ export const LogoImg = styled.img `
   align-self: center;
   padding-left: 40%;
   padding-top: 1%;
-
-
+  padding-bottom: 1%;
 `
 
 export const TopHeader = styled(Header) `

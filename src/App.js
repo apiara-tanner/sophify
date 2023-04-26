@@ -13,14 +13,8 @@ function App() {
   return (
     <BackGround>
       <LibGrid>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
+        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilots-01.png' /> </ArtistLib>
+        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/quinn-01.png' /> </ArtistLib>
 
       </LibGrid>
     </BackGround>
