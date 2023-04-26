@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {BackGround, TopHeader, LibGrid, ArtistLib, LibImg} from './style.js'
+import {BackGround, TopHeader, LibGrid, ArtistLib, LogoImg} from './style.js'
 import {Grommet} from 'grommet';
 
 
 function Header() {
   return (
     <BackGround>
-      <TopHeader> Sophify </TopHeader>
+      <LogoImg src = "https://sophify.s3.us-west-2.amazonaws.com/sophi-fy.png" />
     </BackGround>
   );
 }

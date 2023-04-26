@@ -11,9 +11,8 @@ import {
 
 function App() {
   return (
-    <Grommet>
+    <BackGround>
       <LibGrid>
-      <Link>About</Link>
         <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
         <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
         <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
@@ -22,12 +21,9 @@ function App() {
         <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
         <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
         <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
+
       </LibGrid>
-    </Grommet>
+    </BackGround>
   );
 }
 

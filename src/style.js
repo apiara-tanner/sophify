@@ -12,6 +12,16 @@ export const LibImg = styled.img `
   hight: 100%
 `
 
+export const LogoImg = styled.img `
+  width: 20%;
+  hight: 20%;
+  align-self: center;
+  padding-left: 40%;
+  padding-top: 1%;
+
+
+`
+
 export const TopHeader = styled(Header) `
   background: black;
   font-size: 30px;
@@ -19,7 +29,8 @@ export const TopHeader = styled(Header) `
   padding: 1%;
   pad: left: "medium", right: "small", vertical: "large";
   elevation: medium;
-  color: pink;
+  color: #FF80B2;
+  self-align: center;
 `
 export const ArtistLib = styled(Card) `
   width: 98%;
@@ -27,7 +38,7 @@ export const ArtistLib = styled(Card) `
   border-color: white;
   border-style: solid;
   &:hover {
-    border-color: pink;
+    border-color: #FF80B2;
   }
 `
 
@@ -37,8 +48,8 @@ export const BottomCred = styled(Grommet)`
   width: 100%;
   font-size: small;
   text-align: center;
-  background: black;
-  color: pink;
+  background: #FF80B2;
+  color: black;
 `
 
 export const LibGrid = styled(Grid)`
