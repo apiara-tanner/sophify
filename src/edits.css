@@ -1,6 +1,14 @@
 .rhap_container {
   background: black;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 1%;
+  border-radius: 20px;
+}
 
+.rhap_container:hover {
+  border-color: #FF80B2;
+  color: #FF80B2;
 }
 
 .rhap_main-controls-button svg {
@@ -29,5 +37,6 @@
 }
 
 .rhap_header{
-     color: #FF80B2;
+     color: white;
+     font-weight: bolder;
 }

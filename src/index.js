@@ -22,7 +22,6 @@ root.render(
   <Router>
     <Header />
     <App />
-    <Bottom />
   </Router>
 );
 
