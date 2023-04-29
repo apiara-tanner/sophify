@@ -12,17 +12,7 @@ import {
 function Pilot() {
   return (
     <BackGround>
-      <LibGrid>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilot.png' /> </ArtistLib>
 
-      </LibGrid>
     </BackGround>
   );
 }

@@ -5,7 +5,12 @@ import { store } from './app/store';
 import App from './App';
 import Header from './Header';
 import Bottom from './Bottom';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 import reportWebVitals from './reportWebVitals';
 import './index.css';
@@ -14,13 +19,11 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <Header />
-      <App />
-      <Bottom />
-    </Provider>
-  </React.StrictMode>
+  <Router>
+    <Header />
+    <App />
+    <Bottom />
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
