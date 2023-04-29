@@ -56,3 +56,7 @@ display: grid;
 background: black;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 `
+
+export const SongTitle = styled(Text)`
+  color: #FF80B2;
+`
