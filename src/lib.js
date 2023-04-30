@@ -9,6 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import Pilot from './Pilot.js';
+import Peep from './Peep.js'
 import Header from './Header.js'
 
 function Lib() {
@@ -19,11 +20,16 @@ function Lib() {
         <Link to="/Pilot">
         <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilots-01.png' />
         </Link>
-
          </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/quinn-01.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/peep-02.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/quinn-01.png' /> </ArtistLib>
+        <ArtistLib>
+        <Link to="/Peep">
+        <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/peep-02.png' />
+         </Link>
+         </ArtistLib>
+        <ArtistLib>  <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/quinn-01.png' />
+ </ArtistLib>
+        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/EDM-03.png' /> </ArtistLib>
+        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/EDM-03.png' /> </ArtistLib>
 
       </LibGrid>
     </BackGround>

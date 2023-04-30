@@ -1,85 +1,86 @@
 const PilotsTracks = [
   {
     name: "GUNS FOR HANDS",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/GUNS+FOR+HANDS.mp3"
   },
   {
     name: "HOLDING ON TO YOU",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Holding+On+To+You.mp3"
   },
   {
     name: "ODE TO SLEEP",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Ode+to+Sleep.mp3"
   },
   {
     name: "SLOWTOWN",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Slowtown.mp3"
   },
   {
     name: "CAR RADIO",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Car+Radio.mp3"
   },
   {
     name: "FOREST",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Forest.mp3"
   },
   {
     name: "GLOWING EYES",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Glowing+Eyes.mp3"
   },
   {
     name: "KITCHEN SINK",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Kitchen+Sink.mp3"
   },
   {
     name: "ANATHEMA",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Anathema.mp3"
   },
   {
     name: "LOVELY",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Lovely.mp3"
   },
   {
     name: "RUBY",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Ruby.mp3"
   },
   {
     name: "TREES",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Trees.mp3"
   },
   {
     name: "BE CONCERNED",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/BE+CONCERNED.mp3"
   },
   {
     name: "CLEAR",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/CLEAR.mp3"
   },
   {
     name: "HOUSE OF GOLD",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
-  },
-  {
-    name: "TWO",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
   },
 ]
 
-export default PilotsTracks;
 
 const PeepTracks = [
   {
-    name: "TWO",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    name: "SPOTLIGHT (OG)",
+    link: "https://sophify.s3.us-west-2.amazonaws.com/og+spotlight+by+lil+peep.mp3"
   },
   {
-    name: "TWO",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    name: "MUD ON MY GUCCI",
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Mud+On+My+Gucci.mp3"
   },
   {
-    name: "TWO",
-    link: "http://commondatastorage.googleapis.com/codeskulptor-assets/Collision8-Bit.ogg"
+    name: "WHITE GIRL",
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Lil+Peep+-+White+Girl+(OG+Version).mp3"
+  },
+  {
+    name: "GIVING GIRLS COCAINE",
+    link: "https://sophify.s3.us-west-2.amazonaws.com/giving+girls+cocaine+w_+lil+tracy+(prod+horsehead).mp3"
+  },
+  {
+    name: "COCAINE SHAWTY",
+    link: "https://sophify.s3.us-west-2.amazonaws.com/Lil+Peep+%26+Yunggoth+-+cocaine+shawty.mp3"
   },
 ]
-
-export default PeepTracks;

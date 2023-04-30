@@ -11,12 +11,16 @@ import {
   Link
 } from "react-router-dom";
 import Pilot from './Pilot.js';
+import Peep from './Peep.js';
+
 
 function App() {
   return (
     <Routes>
         <Route path="/" element={<Lib />} />
         <Route path="/Pilot" element={<Pilot />} />
+        <Route path="/Peep" element={<Peep />} />
+
     </Routes>
   );
 }
