@@ -12,67 +12,75 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import './edits.css';
 
-function Pilot() {
+function EDM() {
 
-  const PilotsTracks = [
+  const EDMTracks = [
     {
-      name: "GUNS FOR HANDS",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/GUNS+FOR+HANDS.mp3"
+      name: "SAY MY NAME",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/ODESZA+-+Say+My+Name+(Luke+Shay+Remix).mp3"
     },
     {
-      name: "HOLDING ON TO YOU",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Holding+On+To+You.mp3"
+      name: "MARBLE SODA",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Marble+Soda+(live+mashup)+%5Bvideo+link+in+description%5D.mp3"
     },
     {
-      name: "ODE TO SLEEP",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Ode+to+Sleep.mp3"
+      name: "WAVE DASH",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/wavedash.mp3"
     },
     {
-      name: "SLOWTOWN",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Slowtown.mp3"
+      name: "CHANEL",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Frank+Ocean+-+Chanel+(Nick+Leon+Atmosphere+Remix).mp3"
     },
     {
-      name: "CAR RADIO",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Car+Radio.mp3"
+      name: "TOUNGE TIED",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Cayman+Cline+Tongue+Tied+(Prod+Cayman+Cline).mp3"
     },
     {
-      name: "FOREST",
+      name: "THE NEXT EPISODE",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Forest.mp3"
     },
     {
-      name: "GLOWING EYES",
+      name: "SECRETS",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Glowing+Eyes.mp3"
     },
     {
-      name: "KITCHEN SINK",
+      name: "ADVENTURE OF A LIFETIME",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Kitchen+Sink.mp3"
     },
     {
-      name: "ANATHEMA",
+      name: "HEAT WAVES",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Anathema.mp3"
     },
     {
-      name: "LOVELY",
+      name: "MISERY BUSINESS",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Lovely.mp3"
     },
     {
-      name: "RUBY",
+      name: "ALL I WANTED",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Ruby.mp3"
     },
     {
-      name: "TREES",
+      name: "TRAP QUEEN",
       link: "https://sophify.s3.us-west-2.amazonaws.com/Trees.mp3"
     },
     {
-      name: "BE CONCERNED",
+      name: "KIDS",
       link: "https://sophify.s3.us-west-2.amazonaws.com/BE+CONCERNED.mp3"
     },
     {
-      name: "CLEAR",
+      name: "KISS ME THROUGH THE PHONE",
       link: "https://sophify.s3.us-west-2.amazonaws.com/CLEAR.mp3"
     },
     {
-      name: "HOUSE OF GOLD",
+      name: "POP CULTURE",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
+    },
+    {
+      name: "EAST OF EDEN",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
+    },
+    {
+      name: "ALONE",
       link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
     },
   ]
@@ -80,107 +88,120 @@ function Pilot() {
   return (
     <BackGround>
     <AudioPlayer
-      src= {PilotsTracks[0].link}
+      src= {EDMTracks[0].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[0].name}
+      header = {EDMTracks[0].name}
       />
 
     <AudioPlayer
-      src=  {PilotsTracks[1].link}
+      src=  {EDMTracks[1].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[1].name}
+      header = {EDMTracks[1].name}
     />
 
     <AudioPlayer
-      src=  {PilotsTracks[2].link}
+      src=  {EDMTracks[2].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[2].name}
+      header = {EDMTracks[2].name}
     />
 
     <AudioPlayer
-      src=  {PilotsTracks[3].link}
+      src=  {EDMTracks[3].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[3].name}
+      header = {EDMTracks[3].name}
     />
     <AudioPlayer
-      src= {PilotsTracks[4].link}
+      src= {EDMTracks[4].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[4].name}
+      header = {EDMTracks[4].name}
       />
 
     <AudioPlayer
-      src=  {PilotsTracks[5].link}
+      src=  {EDMTracks[5].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[5].name}
+      header = {EDMTracks[5].name}
     />
 
     <AudioPlayer
-      src=  {PilotsTracks[6].link}
+      src=  {EDMTracks[6].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[6].name}
+      header = {EDMTracks[6].name}
     />
 
     <AudioPlayer
-      src=  {PilotsTracks[7].link}
+      src=  {EDMTracks[7].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[7].name}
+      header = {EDMTracks[7].name}
     />
     <AudioPlayer
-      src=  {PilotsTracks[8].link}
+      src=  {EDMTracks[8].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[8].name}
+      header = {EDMTracks[8].name}
     />
 
     <AudioPlayer
-      src=  {PilotsTracks[9].link}
+      src=  {EDMTracks[9].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[9].name}
+      header = {EDMTracks[9].name}
     />
 
     <AudioPlayer
-      src= {PilotsTracks[10].link}
+      src= {EDMTracks[10].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[10].name}
+      header = {EDMTracks[10].name}
     />
     <AudioPlayer
-      src= {PilotsTracks[11].link}
+      src= {EDMTracks[11].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[11].name}
+      header = {EDMTracks[11].name}
     />
 
     <AudioPlayer
-      src= {PilotsTracks[12].link}
+      src= {EDMTracks[12].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[12].name}
+      header = {EDMTracks[12].name}
     />
 
     <AudioPlayer
-      src=  {PilotsTracks[13].link}
+      src=  {EDMTracks[13].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[13].name}
+      header = {EDMTracks[13].name}
     />
     <AudioPlayer
-      src=  {PilotsTracks[14].link}
+      src=  {EDMTracks[14].link}
       onPlay={e => console.log("onPlay")}
       layout = "horizontal-reverse"
-      header = {PilotsTracks[14].name}
+      header = {EDMTracks[14].name}
     />
+    <AudioPlayer
+      src=  {EDMTracks[15].link}
+      onPlay={e => console.log("onPlay")}
+      layout = "horizontal-reverse"
+      header = {EDMTracks[15].name}
+    />
+    <AudioPlayer
+      src=  {EDMTracks[16].link}
+      onPlay={e => console.log("onPlay")}
+      layout = "horizontal-reverse"
+      header = {EDMTracks[16].name}
+    />
+
     </BackGround>
   );
 }
 
-export default Pilot;
+export default EDM;

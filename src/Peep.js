@@ -11,9 +11,31 @@ import {
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import './edits.css';
-import PeepTracks from './music.js';
 
 function Peep() {
+  const PeepTracks = [
+    {
+      name: "SPOTLIGHT (OG)",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/og+spotlight+by+lil+peep.mp3"
+    },
+    {
+      name: "MUD ON MY GUCCI",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Mud+On+My+Gucci.mp3"
+    },
+    {
+      name: "WHITE GIRL",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Lil+Peep+-+White+Girl+(OG+Version).mp3"
+    },
+    {
+      name: "GIVING GIRLS COCAINE",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/giving+girls+cocaine+w_+lil+tracy+(prod+horsehead).mp3"
+    },
+    {
+      name: "COCAINE SHAWTY",
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Lil+Peep+%26+Yunggoth+-+cocaine+shawty.mp3"
+    },
+  ]
+
   return (
     <BackGround>
     <AudioPlayer
@@ -50,12 +72,6 @@ function Peep() {
       header = {PeepTracks[4].name}
       />
 
-    <AudioPlayer
-      src=  {PeepTracks[5].link}
-      onPlay={e => console.log("onPlay")}
-      layout = "horizontal-reverse"
-      header = {PeepTracks[5].name}
-    />
     </BackGround>
   );
 }
