@@ -37,51 +37,51 @@ function EDM() {
     },
     {
       name: "THE NEXT EPISODE",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Forest.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Dr+Dre+-+The+Next+Episode+(San+Holo+Remix).mp3"
     },
     {
       name: "SECRETS",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Glowing+Eyes.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Ti%C3%ABsto+%26+KSHMR+Feat+VASSY+-+Secrets+(Bassthunder+Remix).mp3"
     },
     {
       name: "ADVENTURE OF A LIFETIME",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Kitchen+Sink.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Coldplay+-+Adventure+Of+A+Lifetime+(Audien+Remix).mp3"
     },
     {
       name: "HEAT WAVES",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Anathema.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Glass+Animals+-+Heat+Waves+(KAIVON+Remix).mp3"
     },
     {
       name: "MISERY BUSINESS",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Lovely.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Paramore+-+Misery+Business+(KAIVON+Remix).mp3"
     },
     {
       name: "ALL I WANTED",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Ruby.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Paramore+x+Porter+x+Yetep+%26+Danny+Olson+-+All+I+Wanted+x+Language+x+Melting+(MashBit+Mashup).mp3"
     },
     {
       name: "TRAP QUEEN",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/Trees.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Fetty+Wap+-+Trap+Queen+(Crankdat+Remix)+%EF%BF%BD%EF%BF%BD.mp3"
     },
     {
       name: "KIDS",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/BE+CONCERNED.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/MGMT+-+Kids+(SYSTEM+KIDS+Remix).mp3"
     },
     {
       name: "KISS ME THROUGH THE PHONE",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/CLEAR.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Kiss+Me+Thru+The+Phone+__+Austin+Johnson+(Enschway+Re+-+Remix).mp3"
     },
     {
       name: "POP CULTURE",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Pop+Culture+Madeon.mp3"
     },
     {
       name: "EAST OF EDEN",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Kim+Petras+%26+Nicki+Minaj+X+Bad+Friends+-+Alone+(EURO+VERSION)%5BSPED+UP%5D.mp3"
     },
     {
       name: "ALONE",
-      link: "https://sophify.s3.us-west-2.amazonaws.com/House+Of+Gold.mp3"
+      link: "https://sophify.s3.us-west-2.amazonaws.com/Kim+Petras+%26+Nicki+Minaj+X+Bad+Friends+-+Alone+(EURO+VERSION)%5BSPED+UP%5D.mp3"
     },
   ]
 

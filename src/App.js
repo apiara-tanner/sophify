@@ -12,6 +12,12 @@ import {
 } from "react-router-dom";
 import Pilot from './Pilot.js';
 import Peep from './Peep.js';
+import Mound from './Mound.js';
+import EDM from './EDM.js';
+import Quinn from './Quinn.js';
+import Miller from './Miller.js';
+
+
 
 
 function App() {
@@ -20,6 +26,12 @@ function App() {
         <Route path="/" element={<Lib />} />
         <Route path="/Pilot" element={<Pilot />} />
         <Route path="/Peep" element={<Peep />} />
+        <Route path="/Mound" element={<Mound />} />
+        <Route path="/EDM" element={<EDM />} />
+        <Route path="/Quinn" element={<Quinn />} />
+        <Route path="/Miller" element={<Miller />} />
+
+
 
     </Routes>
   );

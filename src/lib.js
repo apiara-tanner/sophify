@@ -8,9 +8,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Pilot from './Pilot.js';
-import Peep from './Peep.js'
-import Header from './Header.js'
+
+import Header from './Header.js';
+import Bottom from './Bottom.js';
+
 
 function Lib() {
   return (
@@ -21,17 +22,38 @@ function Lib() {
         <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/pilots-01.png' />
         </Link>
          </ArtistLib>
+         <ArtistLib>
+         <Link to="/Quinn">
+          <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/quinn-01.png' />
+          </Link>
+  </ArtistLib>
         <ArtistLib>
         <Link to="/Peep">
         <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/peep-02.png' />
          </Link>
          </ArtistLib>
-        <ArtistLib>  <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/quinn-01.png' />
- </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/EDM-03.png' /> </ArtistLib>
-        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/EDM-03.png' /> </ArtistLib>
+
+        <ArtistLib>
+        <Link to="/EDM">
+         <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/EDMNEW-03.png' />
+         </Link>
+          </ArtistLib>
+        <ArtistLib>
+        <Link to="/Mound">
+         <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/mound-05.png' />
+         </Link>
+
+          </ArtistLib>
+          <ArtistLib>
+          <Link to="/Miller">
+           <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/MAC+MILLER-05.png' />
+           </Link>
+           </ArtistLib>
+
+        <ArtistLib> <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/to_sophi-04.png' /> </ArtistLib>
 
       </LibGrid>
+      <Bottom />
     </BackGround>
   );
 }
