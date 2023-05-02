@@ -16,6 +16,7 @@ import Mound from './Mound.js';
 import EDM from './EDM.js';
 import Quinn from './Quinn.js';
 import Miller from './Miller.js';
+import Sophi from './Sophi.js';
 
 
 
@@ -30,6 +31,8 @@ function App() {
         <Route path="/EDM" element={<EDM />} />
         <Route path="/Quinn" element={<Quinn />} />
         <Route path="/Miller" element={<Miller />} />
+        <Route path="/Sophi" element={<Sophi />} />
+
 
 
 
