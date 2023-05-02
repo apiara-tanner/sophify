@@ -52,9 +52,10 @@ function Lib() {
 
         <ArtistLib>
         <Link to="/Sophi">
-
-        <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/to_sophi-04.png' /> </ArtistLib>
+        <LibImg src = 'https://sophify.s3.us-west-2.amazonaws.com/to_sophi-04.png' />
         </Link>
+
+         </ArtistLib>
 
       </LibGrid>
       <Bottom />
