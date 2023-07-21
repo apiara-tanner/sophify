@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {BackGround, TopHeader, LibGrid, ArtistLib, LogoImg} from './style.js'
-import {Grommet} from 'grommet';
+import {BackGround, TopHeader, HeaderGrid, LibGrid, ArtistLib, LogoImg} from './style.js'
+import {Grommet, Title} from 'grommet';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,9 +12,15 @@ import {
 function Header() {
   return (
     <BackGround>
-    <Link to="/">
-      <LogoImg src = "https://sophify.s3.us-west-2.amazonaws.com/sophi-fy.png" />
-    </Link>
+    <HeaderGrid>
+      <Link to="/" style={{textDecoration: 'none'}}>
+        <TopHeader> PDX Recipies </TopHeader>
+      </Link>
+
+      <h3> About </h3>
+      <h3> Sign-Up for Updates </h3>
+
+    </HeaderGrid>
     </BackGround>
   );
 }

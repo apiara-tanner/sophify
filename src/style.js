@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Header, Button, Card, Grid, Box, Text, Grommet, Heading, TextArea} from 'grommet';
 
 export const BackGround = styled(Grommet) `
-  background: black;
+  background: white;
   width: 100%;
   hight: 100%
 `
@@ -22,17 +22,37 @@ export const LogoImg = styled.img `
 `
 
 export const TopHeader = styled(Header) `
-  background: black;
-  font-size: 30px;
+  background: white;
+  font-size: 45px;
   font-weight: bold;
-  padding: 1%;
-  pad: left: "medium", right: "small", vertical: "large";
+  padding: 2%;
+  pad: vertical: "large";
   elevation: medium;
-  color: #FF80B2;
+  color: black;
   self-align: center;
 `
-export const ArtistLib = styled(Card) `
+
+export const HeaderGrid = styled(Grid) `
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  padding: 2%;
+`
+
+export const OffSet = styled.div `
+  padding-right: 5%;
+  padding-left: 5%;
+`
+
+export const SubHeader = styled.h1 `
+  font-size: 20px;
+  font-weight: bold;
+  color: #4EA8E5;
+`
+
+
+export const RecLib = styled(Grommet) `
   width: 98%;
+  height: 2%;
   margin: 1%;
   border-color: white;
   border-style: solid;
@@ -51,7 +71,7 @@ export const BottomCred = styled(Grommet)`
   color: black;
 `
 
-export const LibGrid = styled(Grid)`
+export const RecGrid = styled(Grid)`
 display: grid;
 background: black;
 grid-template-columns: 1fr 1fr 1fr 1fr;
